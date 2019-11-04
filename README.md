@@ -8,3 +8,6 @@ security and privacy issues in blockchain based mobile sensing
 
 ## Privacy Preserving and Cost Optimal Mobile Crowdsensing using Smart Contracts on Blockchain
 - tech: mobile crowd sensing, smart contracts
+
+
+## [SMART CITIES CYBERSECURITY AND PRIVACY](https://www.sciencedirect.com/science/article/pii/B9780128150320099911)
