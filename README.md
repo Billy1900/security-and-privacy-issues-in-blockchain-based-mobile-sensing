@@ -11,3 +11,10 @@ security and privacy issues in blockchain based mobile sensing
 
 
 ## [SMART CITIES CYBERSECURITY AND PRIVACY](https://www.sciencedirect.com/science/article/pii/B9780128150320099911)
+
+## A framework of blockchain-based secure and privacy-preserving E-government system
+- keywords:  E-government systems  Blockchain technology  Cybersecurity  Privacy  Decentralized systems
+This paper presents a framework and prototype of blockchain-based secure and privacy-preserving e-government system, which can be adopted by any government for the purpose of ensuring both security and privacy while simultaneously increasing trust in the public sector. 
+
+此篇文章没啥读的价值
+
