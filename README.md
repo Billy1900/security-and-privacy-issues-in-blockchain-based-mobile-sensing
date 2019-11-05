@@ -8,7 +8,7 @@ security and privacy issues in blockchain based mobile sensing
 
 场景借鉴
 
-## [2. Privacy Preserving and Cost Optimal Mobile Crowdsensing using Smart Contracts on Blockchain](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Privacy%20Preserving%20and%20Cost%20Optimal%20Mobile.pdf)
+### [2. Privacy Preserving and Cost Optimal Mobile Crowdsensing using Smart Contracts on Blockchain](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Privacy%20Preserving%20and%20Cost%20Optimal%20Mobile.pdf)
 - tech: mobile crowd sensing, smart contracts
 
 smart contract的方法值得借鉴
