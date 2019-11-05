@@ -62,7 +62,7 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 
 安全问题总结的很好
 
-### [10. Consortium Blockchain for Secure Energy Trading in Industrial Internet of Things]()
+### [10. Consortium Blockchain for Secure Energy Trading in Industrial Internet of Things](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Consortium%20Blockchain%20for%20Secure%20Energy%20Trading%20in%20IOT.pdf)
 <pre>
 **主题**：用联盟链解决工业物联网的能量交易问题
 
@@ -73,7 +73,7 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 3. 在体系里构建了一个能量银行，并使用Stackelberg 博弈进行基于信用贷款的最优定价
 4. 对能量区块链解决的安全问题，能量区块链的性能，基于信用的支付方案的性能做分析
 
-1. 问题背景
+**1. 问题背景
 
 满足IIoT不断增长的能源需求是一个挑战，而且IIoT节点的数量和性能需求不断增长。之前的研究已经提到IIoT节点可以以P2P方式与其他节点交换其剩余能量，从而达到能量的供需平衡。结合energy harvesting, wireless power transfer, and vehicle-to-grid等技术，IIoT目前有三种典型的能量交易场景。
 
@@ -81,7 +81,7 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 2. Energy harvesting networks：具有能量收集能力的工业节点可以从可再生能源获得能量，也可以使用P2P的能量交易方式通过移动充电桩进行无线充电。
 3. Vehicle-to-grid networks：电动车辆在电网负载小时充当能量存储设备，在负载高时把能量送回电网。也可以以P2P的方式把能量出售给邻近的需要充电的电动车辆。
 
-现在面临的安全与隐私问题：
+**现在面临的安全与隐私问题：**
 
 1. IIoT节点在不可信和不透明的能源市场中进行大规模分散能源交易是不安全的。
 2. 具有剩余能量的IIoT节点由于担心隐私而可能不愿意作为能源卖家参与。在这种情况下，IIoT节点之间的能量供需是不平衡的。
@@ -89,11 +89,11 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 
 这篇文章用了联盟链来解决这些问题，提出了自己的方案，主要的工作如文章开头所述。联盟链的突出特征是区块链中存在有特殊权限的超级节点来维持链。下面分别介绍几个主要工作。
 
-### Energy blockchain
+**Energy blockchain**
 
 针对上面提到的三种典型的能量交易场景，提出一个通用的成本可接受的能量区块链。
 
-#### 通用的P2P能量交易框架
+**通用的P2P能量交易框架
 
 首先抽象三个场景得到一些实体：
 
@@ -107,7 +107,7 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 <pre>
 3. Smart meters：每个IIoT节点中的内置智能电表可实时计算和记录交易能量。买家根据电表的记录向卖家支付费用。
 
-#### 区块链构建
+**区块链构建
 
 传统区块链（文中指的应该是比特币区块链）是在所有节点间用高花费的PoW达成共识，这篇论文提出的energe blockchain由EAGs收集和管理交易记录，并只在它们中间达成共识，打包成块，然后存在存储池里。整个过程描述如下：
 
@@ -137,11 +137,11 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 
 参与共识的只有EAGs，相比于传统区块链交易确认时间有了很大提高，但频繁的能量交易过程中，很可能能量节点想交易没能量币，所以这里面设立了能量银行机制。能量银行有足够的能量币，可以根据信用给能量节点贷款，信用的提升或降低是根据节点完成交易的行为确定的。而且，这里的贷款也不是直接把能量币打到贷款者的账户，而是开了一个贷款者和能量银行都能控制的共享账户。
 
-3. 基于信用的支付系统的最优定价策略
+**3. 基于信用的支付系统的最优定价策略
 
 用的是博弈论的思想，没有细看，话说这个和之前Dusit Niyato那篇“Edge Computing Resource Management and Pricing for Mobile Blockchain"挺像的，都是利用博弈论思想做定价分析，只不过这篇是节点从设立的能量币银行借能量币，那篇是资源有限的节点从主机或基站借算力。
 
- 4. 安全和性能分析
+ **4. 安全和性能分析
 
 三方面，能量区块链解决的安全问题，能量区块链的性能，基于信用的支付方案的分析
 
@@ -162,7 +162,7 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 
 最后的结果是这个方案对IIoT的能量交易时有效且高效的，并且能达到最大的经济效益
 
-5. 总结
+**5. 总结
 
 三个能量交易场景，一个能量区块链，一种基于信用的支付方案，一个基于Stackberg博弈的最优定价策略。
 
