@@ -38,7 +38,7 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 
 可以借鉴
 
-### [9. Security and Privacy on Blockchain]()
+### [9. Security and Privacy on Blockchain](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Security%20and%20Privacy%20on%20Blockchain.pdf)
 全面介绍了Blockchain, 可借鉴
 
 1） Consistency of The Ledger across Institutions. In the processes of reconciliation, clearing, and liquidation between ﬁnancial institutions, due to the architecture and business processes vary from diﬀerent ﬁnancial institutions and the involvement of manual processes, it not only leads to high transaction fees generated from the client and the backgroundbusiness side of ﬁnancial institutions, but also is prone to errors and inconsistencies between ledgers hold by diﬀerent ﬁnance institutes.
