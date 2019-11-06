@@ -14,7 +14,7 @@ security and privacy issues in blockchain based mobile sensing
 
 smart contract的方法值得借鉴
 
-## [3. SMART CITIES CYBERSECURITY AND PRIVACY](https://www.sciencedirect.com/science/article/pii/B9780128150320099911)
+### [3. SMART CITIES CYBERSECURITY AND PRIVACY](https://www.sciencedirect.com/science/article/pii/B9780128150320099911)
 
 ### [4. A framework of blockchain-based secure and privacy-preserving E-government system](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/A%20framework%20of%20blockchain-based%20secure%20and%20privacy-preserving%20E-government%20system.pdf)
 - keywords:  E-government systems, Blockchain technology, Cybersecurity, Privacy, Decentralized systems
