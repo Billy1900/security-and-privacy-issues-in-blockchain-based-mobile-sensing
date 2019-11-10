@@ -1,9 +1,9 @@
 # security-and-privacy-issues-in-blockchain-based-mobile-sensing
 security and privacy issues in blockchain based mobile sensing
 
-[Ready for the paper-Journal of Parellel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing/call-for-papers/blockchain-enabled-secure-communications)
+[**Ready for the paper-Journal of Parellel and Distributed Computing**](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing/call-for-papers/blockchain-enabled-secure-communications)
 
-[thoughts](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/thoughts.md)
+[**THOUGHTS**](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/thoughts.md)
 
 ### [1. Blockchain for Secure and Efﬁcient Data Sharing in Vehicular Edge Computing and Networks](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Blockchain%20for%20Secure%20and%20Efficient%20Data%20Sharing%20in.pdf) 
 - tech:  vehicular edge computing and networks (VECONs), secure data storage, smart contract, reputation-based data sharing (3-weight subjective logic model), mobile edge computing, consortium blockchain
