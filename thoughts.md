@@ -4,7 +4,9 @@ Blockchain: public chain, smart contract to ensure the data security
 
 GNN: detection of abnormal network behavior
 
-context: smart home, smart healthcare
+context: smart healthcare
+
+[Blockchain and Healthcare: Use Cases Today and Opportunities for the Future](https://mlsdev.com/blog/blockchain-and-healthcare-use-cases-today-and-in-the-future)
 
 reference: 
 - Privacy Preserving and Cost Optimal Mobile Crowdsensing using Smart Contracts on Blockchain
