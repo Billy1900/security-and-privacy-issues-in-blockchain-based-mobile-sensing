@@ -7,6 +7,9 @@ GNN: detection of abnormal network behavior
 Context: smart healthcare
 
 [Blockchain and Healthcare: Use Cases Today and Opportunities for the Future](https://mlsdev.com/blog/blockchain-and-healthcare-use-cases-today-and-in-the-future)
+<pre>
+
+</pre>
 
 Reference: 
 - Privacy Preserving and Cost Optimal Mobile Crowdsensing using Smart Contracts on Blockchain
