@@ -8,6 +8,7 @@ Context: smart healthcare
 
 [Blockchain and Healthcare: Use Cases Today and Opportunities for the Future](https://mlsdev.com/blog/blockchain-and-healthcare-use-cases-today-and-in-the-future)
 <pre>
+1) Blockchain technology can help establish Blockchain medical records. Digital medical records stored on a Blockchain could help parties in the health care sector put all the pieces of the health data puzzle together. 
 
 </pre>
 
