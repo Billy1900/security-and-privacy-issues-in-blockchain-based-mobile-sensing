@@ -1,6 +1,6 @@
 # Thoughts
 
-Blockchain: public chain, smart contract to ensure the data security
+Blockchain: consortium chain, smart contract to ensure the data security
 
 GNN: detection of abnormal network behavior
 
