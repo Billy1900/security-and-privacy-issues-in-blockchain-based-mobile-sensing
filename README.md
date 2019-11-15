@@ -5,6 +5,8 @@ security and privacy issues in blockchain based mobile sensing
 
 [**THOUGHTS**](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/thoughts.md)
 
+[***Paper***](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Paper.md)
+
 ### [1. Blockchain for Secure and Efﬁcient Data Sharing in Vehicular Edge Computing and Networks](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Blockchain%20for%20Secure%20and%20Efficient%20Data%20Sharing%20in.pdf) 
 - tech:  vehicular edge computing and networks (VECONs), secure data storage, smart contract, reputation-based data sharing (3-weight subjective logic model), mobile edge computing, consortium blockchain
 
