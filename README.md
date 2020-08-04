@@ -72,14 +72,17 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 安全问题总结的很好
 
 ### [10. Consortium Blockchain for Secure Energy Trading in Industrial Internet of Things](https://github.com/Billy1900/security-and-privacy-issues-in-blockchain-based-mobile-sensing/blob/master/Consortium%20Blockchain%20for%20Secure%20Energy%20Trading%20in%20IOT.pdf)
-<pre>
+
 **主题**：用联盟链解决工业物联网的能量交易问题
 
 **主要工作**：
 
 1. 针对工业物联网(IIoT)里能量交易的安全与隐私问题，提出能量区块链(energy blockchain)
+
 2. 为了减少由交易确认的延迟造成的交易限制，提出一个基于信用的支付方案，以支持快速和频繁的能源限制
+
 3. 在体系里构建了一个能量银行，并使用Stackelberg 博弈进行基于信用贷款的最优定价
+
 4. 对能量区块链解决的安全问题，能量区块链的性能，基于信用的支付方案的性能做分析
 
 **1. 问题背景
@@ -87,13 +90,17 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 满足IIoT不断增长的能源需求是一个挑战，而且IIoT节点的数量和性能需求不断增长。之前的研究已经提到IIoT节点可以以P2P方式与其他节点交换其剩余能量，从而达到能量的供需平衡。结合energy harvesting, wireless power transfer, and vehicle-to-grid等技术，IIoT目前有三种典型的能量交易场景。
 
 1. Microgrids：具有太阳能电池板或风力发电机的智能建筑物可形成微电网，其中建筑物在微电网中以P2P方式收集环境能量并相互交换能量。
+
 2. Energy harvesting networks：具有能量收集能力的工业节点可以从可再生能源获得能量，也可以使用P2P的能量交易方式通过移动充电桩进行无线充电。
+
 3. Vehicle-to-grid networks：电动车辆在电网负载小时充当能量存储设备，在负载高时把能量送回电网。也可以以P2P的方式把能量出售给邻近的需要充电的电动车辆。
 
 **现在面临的安全与隐私问题：**
 
 1. IIoT节点在不可信和不透明的能源市场中进行大规模分散能源交易是不安全的。
+
 2. 具有剩余能量的IIoT节点由于担心隐私而可能不愿意作为能源卖家参与。在这种情况下，IIoT节点之间的能量供需是不平衡的。
+
 3. 在P2P能源交易中，有一个中介来审核和验证IIoT节点之间的交易记录。
 
 这篇文章用了联盟链来解决这些问题，提出了自己的方案，主要的工作如文章开头所述。联盟链的突出特征是区块链中存在有特殊权限的超级节点来维持链。下面分别介绍几个主要工作。
@@ -111,9 +118,8 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 2. Energy aggregators：EAG作为能源中间人来管理与能源交易相关的事件，并为IIoT节点提供无线通信服务。在不同的能源交易场景中，EAG对应于不同的物理实体。例如，微电网中的高级计量基础设施、能量收集网络中具有计算和存储能力的enhanced-based station。vehicle-to-grids中的local aggregators。
 
    下图展示了EAG中的四个实体：交易服务器(transaction)，信用银行(credit bank)，账户池(account pool)，存储池(memory pool)。交易服务器从能量节点收集能量请求，并匹配能量交易。这里使用能量币(energe coin)来作为加密数字货币流通。每个能源节点都有一个能量币账户来存储个人交易记录。有一个相应的钱包来管理这个帐户中的个人能量币。用公钥作钱包地址，所有钱包和相应的钱包地址与能量币账户之间的映射关系存储在本地账户池中。EAG中的帐户池记录和管理能量节点的个人钱包地址中的能量币资金。内存池存储本地能量节点的所有交易记录。
-</pre>
+
    ![image](https://github.com/shuzang/image/blob/master/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB_Consortium%20Blockchain%20for%20Secure%20Energy%20Trading%20in%20Industrial%20Internet%20of%20Things.png?raw=true)
-<pre>
 3. Smart meters：每个IIoT节点中的内置智能电表可实时计算和记录交易能量。买家根据电表的记录向卖家支付费用。
 
 **区块链构建
@@ -176,4 +182,4 @@ Our Contribution. 1) We combine blockchain and offblockchain storage to construc
 三个能量交易场景，一个能量区块链，一种基于信用的支付方案，一个基于Stackberg博弈的最优定价策略。
 
 最后是安全性和性能分析。
-</pre>
+
